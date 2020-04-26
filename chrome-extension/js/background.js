@@ -29,12 +29,12 @@ function checkFact(message){
         return response.json()
     }).then(body=>{
         console.log(body);
-        var fake = body[0].Percentage[0];
-        var truth = body[1].Percentage[0];
+        var fake = body[0].Percentage[0] * 100
+        var truth = body[1].Percentage[0] * 100;
         if(fake>truth){
-            window.alert(fake+" % Likely that it is false");
+            window.alert(fake+"% Likely that it is false");
         }else{
-            window.alert(truth+" % Likely that it is correct");
+            window.alert(truth+"% Likely that it is correct");
         }
     })
 }
