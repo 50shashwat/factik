@@ -1,0 +1,19 @@
+{
+  "name": "FacTik",
+  "version": "1.0",
+  "description": "Fake News Detector",
+  "background": {
+    "scripts": ["js/background.js"],
+    "persistent": true
+  },
+  "page_action": {
+      "default_icon":"icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "contextMenus", "activeTab"],
+  "icons": { "16": "icon.png",
+    "48": "icon.png",
+   "128": "icon.png" 
+},
+  "manifest_version": 2
+}
