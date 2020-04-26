@@ -32,9 +32,9 @@ function checkFact(message){
         var fake = body[0].Percentage[0];
         var truth = body[1].Percentage[0];
         if(fake>truth){
-            window.alert("Mostly False");
+            window.alert(fake+" % Likely that it is false");
         }else{
-            window.alert("Mostly Truth");
+            window.alert(truth+" % Likely that it is correct");
         }
     })
 }
