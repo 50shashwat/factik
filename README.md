@@ -1,8 +1,8 @@
 # factik
 Steps to use this project :
 
-1. The first step is to import chrome extensoin provided in this project to your chrome browser.As we have not yet published our extension so you can download it on your local machine and then import it in chrome manually (On its developer mode).
-Go to <b> chrome://extensions > click on Load unpacked link > choose the extension folder which you have downloaded > Enable the extension<b>
+1. The first step is to import chrome extensoin provided in this project to your chrome browser.As we have not yet published our extension so you can download it on your local machine and then import it in chrome manually (<b>On its developer mode</b>).
+Go to <b> chrome://extensions > click on Load unpacked link > choose the extension folder which you have downloaded > Enable the extension</b>
 2. Now you have to go to your social media site and select the post or news to check how much likely it is correct or fake. Select the content and right click on it. Now in order to verify the text, select Factik option from the right click options.
 3. It will show a popup window with the percentage that how much likely it is fake or correct.
 
